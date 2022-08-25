@@ -5,7 +5,6 @@ url = "https://www.flipkart.com/search?q=laptop&sid=6bo%2Cb5g&as=on&as-show=on&o
 page = requests.get(url)
 
 soup = BeautifulSoup(page.text,'html.parser')
-# print(soup.getText())
 
 def lap():
     print("LOading...............\nwait...............")
